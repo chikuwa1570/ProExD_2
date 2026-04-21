@@ -49,6 +49,7 @@ def gameover(screen: pg.Surface) -> None:
     screen.blit(black_sfc, [0, 0])
     pg.display.update()
     time.sleep(5)
+
 def init_bb_imgs() -> tuple[list[pg.Surface], list[int]]:
     bb_imgs = []
     bb_accs = [a for a in range(1, 11)]
